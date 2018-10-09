@@ -11,12 +11,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Tester for Simple Revenue Calculator app.
  * @author D. Dressler
  */
-class RevenueCalculatorTest {
+class CalculatorTest {
 
-    RevenuCalculator revenuCalculator;
+    Calculator revenueCalculator;
     @BeforeEach
     void setUp() {
-        revenuCalculator = new RevenueCalculator();
+        revenueCalculator = new Calculator();
     }
 
     @Test
@@ -24,7 +24,7 @@ class RevenueCalculatorTest {
         BigDecimal percentage = BigDecimal.valueOf(20);
         BigDecimal costOfGoods = BigDecimal.valueOf(400.00);
         BigDecimal expectedResult = BigDecimal.valueOf(500.00).setScale(2);
-        assertEquals(expectedResult,revenuCalculator.calculateRevenue(percentage,costOfGoods));
+        assertEquals(expectedResult, revenueCalculator.calculateRevenue(percentage,costOfGoods));
     }
 
     @Test
@@ -32,7 +32,7 @@ class RevenueCalculatorTest {
         BigDecimal percentage = BigDecimal.valueOf(20);
         BigDecimal costOfGoods = BigDecimal.valueOf(800);
         BigDecimal expectedResult = BigDecimal.valueOf(1000.00).setScale(2);
-        assertEquals(expectedResult,revenuCalculator.calculateRevenue(percentage,costOfGoods));
+        assertEquals(expectedResult, revenueCalculator.calculateRevenue(percentage,costOfGoods));
     }
 
     @Test
@@ -40,7 +40,7 @@ class RevenueCalculatorTest {
         BigDecimal percentage = BigDecimal.valueOf(50);
         BigDecimal costOfGoods = BigDecimal.valueOf(1500);
         BigDecimal expectedResult = BigDecimal.valueOf(3000.00).setScale(2);
-        assertEquals(expectedResult,revenuCalculator.calculateRevenue(percentage,costOfGoods));
+        assertEquals(expectedResult, revenueCalculator.calculateRevenue(percentage,costOfGoods));
     }
 
     @Test
@@ -48,7 +48,7 @@ class RevenueCalculatorTest {
         BigDecimal percentage = BigDecimal.valueOf(12.50).setScale(2);
         BigDecimal costOfGoods = BigDecimal.valueOf(2843.97).setScale(2);
         BigDecimal expectedResult = BigDecimal.valueOf(3250.25).setScale(2);
-        assertEquals(expectedResult,revenuCalculator.calculateRevenue(percentage,costOfGoods));
+        assertEquals(expectedResult, revenueCalculator.calculateRevenue(percentage,costOfGoods));
     }
 
     @Test
@@ -56,6 +56,6 @@ class RevenueCalculatorTest {
         BigDecimal percentage = BigDecimal.valueOf(87.50).setScale(2);
         BigDecimal costOfGoods = BigDecimal.valueOf(500.00).setScale(2);
         BigDecimal expectedResult = BigDecimal.valueOf(4000.00).setScale(2);
-        assertEquals(expectedResult,revenuCalculator.calculateRevenue(percentage,costOfGoods));
+        assertEquals(expectedResult, revenueCalculator.calculateRevenue(percentage,costOfGoods));
     }
 }

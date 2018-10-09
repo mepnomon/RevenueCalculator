@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="880e3807-2aec-41bf-a252-fd899e4f9e5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/revenuecalculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/revenuecalculator/RevenuCalculator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/revenuecalculator/RevenueCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revenuecalculator/RevenueCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-revenuecalculator.RevenueCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-revenuecalculator.RevenueCalculatorTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/revenuecalculator.RevenueCalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/revenuecalculator.RevenueCalculatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/revenuecalculator/RevenueCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/revenuecalculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/revenuecalculator/RevenueCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/revenuecalculator/RevenueCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/revenuecalculator/RevenueCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/revenuecalculator/RevenueCalculatorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,39 +28,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1300" />
+          <entry key="java" value="1345" />
           <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1300" />
+          <entry key="JAVA" value="1345" />
           <entry key="XML" value="54" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25460994">
+    <splitter split-orientation="horizontal" split-proportion="0.42269504">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/revenuecalculator/RevenueCalculatorTest.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/revenuecalculator/CalculatorTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#312#313#0" expanded="true" />
@@ -75,14 +74,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/Calculator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -106,9 +114,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/revenuecalculator/RevenuCalculator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/revenuecalculator/RevenueCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/revenuecalculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/revenuecalculator/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/revenuecalculator/RevenuCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java" />
       </list>
     </option>
@@ -221,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539123406084" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539123608782" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -246,7 +256,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RevenueCalculatorTest">
-    <configuration name="RevenueCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RevenueCalculator" />
       <extension name="coverage">
         <pattern>
@@ -255,12 +265,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="revenuecalculator" />
-      <option name="MAIN_CLASS_NAME" value="revenuecalculator.RevenueCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="revenuecalculator.CalculatorTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevenueCalculatorTest.calculate_revenue_for_1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.calculate_revenue_for_1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RevenueCalculator" />
       <extension name="coverage">
         <pattern>
@@ -269,14 +279,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="revenuecalculator" />
-      <option name="MAIN_CLASS_NAME" value="revenuecalculator.RevenueCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="revenuecalculator.CalculatorTest" />
       <option name="METHOD_NAME" value="calculate_revenue_for_1000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevenueCalculatorTest.calculate_revenue_for_3000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.calculate_revenue_for_3000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RevenueCalculator" />
       <extension name="coverage">
         <pattern>
@@ -285,14 +295,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="revenuecalculator" />
-      <option name="MAIN_CLASS_NAME" value="revenuecalculator.RevenueCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="revenuecalculator.CalculatorTest" />
       <option name="METHOD_NAME" value="calculate_revenue_for_3000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevenueCalculatorTest.calculate_revenue_for_3250_25" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.calculate_revenue_for_3250_25" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RevenueCalculator" />
       <extension name="coverage">
         <pattern>
@@ -301,14 +311,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="revenuecalculator" />
-      <option name="MAIN_CLASS_NAME" value="revenuecalculator.RevenueCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="revenuecalculator.CalculatorTest" />
       <option name="METHOD_NAME" value="calculate_revenue_for_3250_25" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevenueCalculatorTest.calculate_revenue_for_4000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.calculate_revenue_for_4000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RevenueCalculator" />
       <extension name="coverage">
         <pattern>
@@ -317,7 +327,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="revenuecalculator" />
-      <option name="MAIN_CLASS_NAME" value="revenuecalculator.RevenueCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="revenuecalculator.CalculatorTest" />
       <option name="METHOD_NAME" value="calculate_revenue_for_4000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -355,9 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RevenueCalculatorTest_calculate_revenue_for_3250_25 - 2018.10.09 at 22h 54m 09s.xml">
-      <configuration name="RevenueCalculatorTest.calculate_revenue_for_3250_25" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RevenueCalculatorTest - 2018.10.09 at 22h 56m 02s.xml">
       <configuration name="RevenueCalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -384,6 +391,9 @@
     </history-entry>
     <history-entry file="RevenueCalculatorTest - 2018.10.09 at 23h 00m 34s.xml">
       <configuration name="RevenueCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2018.10.09 at 23h 19m 29s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -423,13 +433,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/RevenuCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -437,10 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/revenuecalculator/RevenueCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/revenuecalculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -449,13 +452,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/revenuecalculator/RevenueCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
