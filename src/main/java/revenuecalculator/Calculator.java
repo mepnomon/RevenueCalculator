@@ -9,6 +9,7 @@ import java.math.RoundingMode;
  */
 public class Calculator implements RevenueCalculator {
 
+    @Override
     public BigDecimal calculateRevenue(BigDecimal marginPercentage, BigDecimal costOfGoods) {
         BigDecimal totalPercentage = BigDecimal.valueOf(100.00).setScale(2);
         BigDecimal firstTerm = costOfGoods.multiply(totalPercentage).setScale(2);
