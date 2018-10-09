@@ -7,6 +7,10 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Tester for Simple Revenue Calculator app.
+ * @author D. Dressler
+ */
 class RevenueCalculatorTest {
 
     RevenuCalculator revenuCalculator;

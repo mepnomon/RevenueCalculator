@@ -3,6 +3,10 @@ package revenuecalculator;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ * Simple app to calculate revenue.
+ * @author D. Dressler
+ */
 public class RevenueCalculator implements RevenuCalculator {
 
     public BigDecimal calculateRevenue(BigDecimal marginPercentage, BigDecimal costOfGoods) {
